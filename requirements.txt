@@ -1,0 +1,8 @@
+numpy
+pandas
+opencv-python
+torch
+tensorflow
+scikit-learn
+flask
+git-lfs
