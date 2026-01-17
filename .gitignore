@@ -1,0 +1,75 @@
+# =========================
+# Python / Environnement
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environnements virtuels
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+MANIFEST
+
+# Logs
+*.log
+
+# Outils / caches
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
+.cache/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / OS
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+.streamlit/config.toml
+
+# =========================
+# Données du projet
+# =========================
+
+# Embeddings et méta de la base (gros fichiers, régénérables)
+lfw_embeds.npy
+lfw_meta.pkl
+
+# Dossier des visages custom (peut contenir des données sensibles / lourdes)
+custom_faces/
+
+# Si tu ajoutes d'autres dossiers de données
+data/
+datasets/
+models/
+checkpoints/
+
+# Export / rapports
+reports/*.pdf
+reports/*.docx
